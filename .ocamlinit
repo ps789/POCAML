@@ -1,0 +1,13 @@
+#require "oUnit";;
+#require "yojson";;
+#require "ANSITerminal";;
+#directory "_build";;
+#load "game.cmo";;
+#load "command.cmo";;
+#load "pocamel.cmo";;
+#load "battle.cmo";;
+#load "trainer.cmo";;
+#load "main.cmo";;
+#load "move.cmo";;
+#load "location.cmo";;
+#load "item.cmo";;

@@ -1,0 +1,1081 @@
+{
+  "starting pocamel": "Medapod",
+  "player": {
+    "name": "Timmy",
+    "pocamels": [
+      {
+        "name": "Medapod",
+        "type": [
+          "bug"
+        ],
+        "level": 30,
+        "hp": 100,
+        "max_hp": 100,
+        "attack": 100,
+        "defense": 100,
+        "speed": 100,
+        "accuracy": 100,
+        "evasion": 100,
+        "moves": [
+          {
+            "name": "Toggle",
+            "stock": 10
+          }
+        ],
+        "item": {
+          "id": "None",
+          "count": 0,
+          "elixir": 0
+        }
+      },
+      {
+        "name": "Majikarp",
+        "type": [
+          "water"
+        ],
+        "level": 30,
+        "hp": 1,
+        "max_hp": 100,
+        "attack": 100,
+        "defense": 100,
+        "speed": 100,
+        "accuracy": 100,
+        "evasion": 100,
+        "moves": [
+          {
+            "name": "Splosh",
+            "stock": 10
+          }
+        ],
+        "item": {
+          "id": "None",
+          "count": 0,
+          "elixir": 0
+        }
+      },
+      {
+        "name": "Hipcamdon",
+        "type": [
+          "water",
+          "rock"
+        ],
+        "level": 30,
+        "hp": 120,
+        "max_hp": 120,
+        "attack": 80,
+        "defense": 150,
+        "speed": 40,
+        "accuracy": 90,
+        "evasion": 80,
+        "moves": [
+          {
+            "name": "Earthquake",
+            "stock": 5
+          },
+          {
+            "name": "Rock Smash",
+            "stock": 15
+          }
+        ],
+        "item": {
+          "id": "None",
+          "count": 0,
+          "elixir": 0
+        }
+      },
+      {
+        "name": "Prelimkia",
+        "type": [
+          "dark",
+          "psychic"
+        ],
+        "level": 30,
+        "hp": 200,
+        "max_hp": 200,
+        "attack": 150,
+        "defense": 30,
+        "speed": 100,
+        "accuracy": 100,
+        "evasion": 100,
+        "moves": [
+          {
+            "name": "Time Slash",
+            "stock": 15
+          },
+          {
+            "name": "Eternal Struggle",
+            "stock": 5
+          }
+        ],
+        "item": {
+          "id": "None",
+          "count": 0,
+          "elixir": 0
+        }
+      }
+    ],
+    "items": [
+      {
+        "id": "Hype Potion",
+        "count": 1,
+        "elixir": 200
+      },
+      {
+        "id": "Stone Plate",
+        "count": 1,
+        "elixir": 0
+      },
+      {
+        "id": "poca-ball",
+        "count": 2,
+        "elixir": 0
+      },
+      {
+        "id": "great-ball",
+        "count": 2,
+        "elixir": 0
+      },
+      {
+        "id": "master-ball",
+        "count": 2,
+        "elixir": 0
+      }
+    ],
+    "location": {
+      "x": 1,
+      "y": 1
+    },
+    "direction": "South"
+  },
+  "opponents": [
+    {
+      "name": "Bob",
+      "pocamels": [
+        {
+          "name": "Majikarp",
+          "type": [
+            "water"
+          ],
+          "level": 30,
+          "hp": 100,
+          "max_hp": 100,
+          "attack": 100,
+          "defense": 100,
+          "speed": 100,
+          "accuracy": 100,
+          "evasion": 100,
+          "moves": [
+            {
+              "name": "Splosh",
+              "stock": 1
+            }
+          ],
+          "item": {
+            "id": "None",
+            "count": 0,
+            "elixir": 0,
+            "pokeball_type": "None"
+          }
+        },
+        {
+          "name": "Majikarp2",
+          "type": [
+            "water"
+          ],
+          "level": 30,
+          "hp": 100,
+          "max_hp": 100,
+          "attack": 100,
+          "defense": 100,
+          "speed": 100,
+          "accuracy": 100,
+          "evasion": 100,
+          "moves": [
+            {
+              "name": "Splosh",
+              "stock": 40
+            }
+          ],
+          "item": {
+            "id": "None",
+            "count": 0,
+            "elixir": 0,
+            "pokeball_type": "None"
+          }
+        },
+        {
+          "name": "Laptopcrop",
+          "type": [
+            "bug",
+            "flying"
+          ],
+          "level": 30,
+          "hp": 50,
+          "max_hp": 50,
+          "attack": 110,
+          "defense": 40,
+          "speed": 150,
+          "accuracy": 90,
+          "evasion": 130,
+          "moves": [
+            {
+              "name": "Sky Swoop",
+              "stock": 10
+            },
+            {
+              "name": "Crash",
+              "stock": 15
+            }
+          ],
+          "item": {
+            "id": "None",
+            "count": 0,
+            "elixir": 0
+          }
+        },
+        {
+          "name": "Typachacka",
+          "type": [
+            "bug",
+            "fire"
+          ],
+          "level": 30,
+          "hp": 120,
+          "max_hp": 120,
+          "attack": 80,
+          "defense": 60,
+          "speed": 40,
+          "accuracy": 70,
+          "evasion": 20,
+          "moves": [
+            {
+              "name": "Dumpster Fire",
+              "stock": 3
+            },
+            {
+              "name": "Toggle",
+              "stock": 10
+            }
+          ],
+          "item": {
+            "id": "None",
+            "count": 0,
+            "elixir": 0
+          }
+        },
+        {
+          "name": "Medapod",
+          "type": [
+            "bug"
+          ],
+          "level": 30,
+          "hp": 100,
+          "max_hp": 100,
+          "attack": 100,
+          "defense": 80,
+          "speed": 100,
+          "accuracy": 100,
+          "evasion": 100,
+          "moves": [
+            {
+              "name": "Toggle",
+              "stock": 10
+            }
+          ],
+          "item": {
+            "id": "None",
+            "count": 0,
+            "elixir": 0
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "Hype Potion",
+          "count": 1,
+          "elixir": 200
+        }
+      ],
+      "location": {
+        "x": 40,
+        "y": 1
+      },
+      "direction": "North"
+    },
+    {
+      "name": "Sam",
+      "pocamels": [
+        {
+          "name": "Majikarp",
+          "type": [
+            "water"
+          ],
+          "level": 30,
+          "hp": 100,
+          "max_hp": 100,
+          "attack": 100,
+          "defense": 100,
+          "speed": 100,
+          "accuracy": 100,
+          "evasion": 100,
+          "moves": [
+            {
+              "name": "Splosh",
+              "stock": 1
+            }
+          ],
+          "item": {
+            "id": "None",
+            "count": 0,
+            "elixir": 0,
+            "pokeball_type": "None"
+          }
+        },
+        {
+          "name": "Majikarp2",
+          "type": [
+            "water"
+          ],
+          "level": 30,
+          "hp": 100,
+          "max_hp": 100,
+          "attack": 100,
+          "defense": 100,
+          "speed": 100,
+          "accuracy": 100,
+          "evasion": 100,
+          "moves": [
+            {
+              "name": "Splosh",
+              "stock": 40
+            }
+          ],
+          "item": {
+            "id": "None",
+            "count": 0,
+            "elixir": 0,
+            "pokeball_type": "None"
+          }
+        },
+        {
+          "name": "Laptopcrop",
+          "type": [
+            "bug",
+            "flying"
+          ],
+          "level": 30,
+          "hp": 50,
+          "max_hp": 50,
+          "attack": 110,
+          "defense": 40,
+          "speed": 150,
+          "accuracy": 90,
+          "evasion": 130,
+          "moves": [
+            {
+              "name": "Sky Swoop",
+              "stock": 10
+            },
+            {
+              "name": "Crash",
+              "stock": 15
+            }
+          ],
+          "item": {
+            "id": "None",
+            "count": 0,
+            "elixir": 0
+          }
+        },
+        {
+          "name": "Typachacka",
+          "type": [
+            "bug",
+            "fire"
+          ],
+          "level": 30,
+          "hp": 120,
+          "max_hp": 120,
+          "attack": 80,
+          "defense": 60,
+          "speed": 40,
+          "accuracy": 70,
+          "evasion": 20,
+          "moves": [
+            {
+              "name": "Dumpster Fire",
+              "stock": 3
+            },
+            {
+              "name": "Toggle",
+              "stock": 10
+            }
+          ],
+          "item": {
+            "id": "None",
+            "count": 0,
+            "elixir": 0
+          }
+        },
+        {
+          "name": "Medapod",
+          "type": [
+            "bug"
+          ],
+          "level": 30,
+          "hp": 100,
+          "max_hp": 100,
+          "attack": 100,
+          "defense": 80,
+          "speed": 100,
+          "accuracy": 100,
+          "evasion": 100,
+          "moves": [
+            {
+              "name": "Toggle",
+              "stock": 10
+            }
+          ],
+          "item": {
+            "id": "None",
+            "count": 0,
+            "elixir": 0
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "Hype Potion",
+          "count": 1,
+          "elixir": 200
+        }
+      ],
+      "location": {
+        "x": 30,
+        "y": 15
+      },
+      "direction": "South"
+    },
+    {
+      "name": "Joe",
+      "pocamels": [
+        {
+          "name": "Majikarp",
+          "type": [
+            "water"
+          ],
+          "level": 30,
+          "hp": 100,
+          "max_hp": 100,
+          "attack": 100,
+          "defense": 100,
+          "speed": 100,
+          "accuracy": 100,
+          "evasion": 100,
+          "moves": [
+            {
+              "name": "Splosh",
+              "stock": 1
+            }
+          ],
+          "item": {
+            "id": "None",
+            "count": 0,
+            "elixir": 0,
+            "pokeball_type": "None"
+          }
+        },
+        {
+          "name": "Majikarp2",
+          "type": [
+            "water"
+          ],
+          "level": 30,
+          "hp": 100,
+          "max_hp": 100,
+          "attack": 100,
+          "defense": 100,
+          "speed": 100,
+          "accuracy": 100,
+          "evasion": 100,
+          "moves": [
+            {
+              "name": "Splosh",
+              "stock": 40
+            }
+          ],
+          "item": {
+            "id": "None",
+            "count": 0,
+            "elixir": 0,
+            "pokeball_type": "None"
+          }
+        },
+        {
+          "name": "Laptopcrop",
+          "type": [
+            "bug",
+            "flying"
+          ],
+          "level": 30,
+          "hp": 50,
+          "max_hp": 50,
+          "attack": 110,
+          "defense": 40,
+          "speed": 150,
+          "accuracy": 90,
+          "evasion": 130,
+          "moves": [
+            {
+              "name": "Sky Swoop",
+              "stock": 10
+            },
+            {
+              "name": "Crash",
+              "stock": 15
+            }
+          ],
+          "item": {
+            "id": "None",
+            "count": 0,
+            "elixir": 0
+          }
+        },
+        {
+          "name": "Typachacka",
+          "type": [
+            "bug",
+            "fire"
+          ],
+          "level": 30,
+          "hp": 120,
+          "max_hp": 120,
+          "attack": 80,
+          "defense": 60,
+          "speed": 40,
+          "accuracy": 70,
+          "evasion": 20,
+          "moves": [
+            {
+              "name": "Dumpster Fire",
+              "stock": 3
+            },
+            {
+              "name": "Toggle",
+              "stock": 10
+            }
+          ],
+          "item": {
+            "id": "None",
+            "count": 0,
+            "elixir": 0
+          }
+        },
+        {
+          "name": "Medapod",
+          "type": [
+            "bug"
+          ],
+          "level": 30,
+          "hp": 100,
+          "max_hp": 100,
+          "attack": 100,
+          "defense": 80,
+          "speed": 100,
+          "accuracy": 100,
+          "evasion": 100,
+          "moves": [
+            {
+              "name": "Toggle",
+              "stock": 10
+            }
+          ],
+          "item": {
+            "id": "None",
+            "count": 0,
+            "elixir": 0
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "Hype Potion",
+          "count": 1,
+          "elixir": 200
+        }
+      ],
+      "location": {
+        "x": 8,
+        "y": 9
+      },
+      "direction": "East"
+    }
+  ],
+  "moves": [
+    {
+      "name": "Splosh",
+      "power": 0,
+      "acc": 100,
+      "desc": "Waddle Waddle",
+      "stock": 40,
+      "type": "water"
+    },
+    {
+      "name": "Toggle",
+      "power": 50,
+      "acc": 100,
+      "desc": "boom",
+      "stock": 40,
+      "type": "normal"
+    },
+    {
+      "name": "Earthquake",
+      "power": 150,
+      "acc": 60,
+      "desc": "a thunderous preformance of strength",
+      "stock": 10,
+      "type": "ground"
+    },
+    {
+      "name": "Rock Smash",
+      "power": 30,
+      "acc": 100,
+      "desc": "Smash a rock over their head",
+      "stock": 30,
+      "type": "rock"
+    },
+    {
+      "name": "Time Slash",
+      "power": 80,
+      "acc": 100,
+      "desc": "Cut their time short",
+      "stock": 20,
+      "type": "psychic"
+    },
+    {
+      "name": "Eternal Struggle",
+      "power": 120,
+      "acc": 100,
+      "desc": "Show them true pain",
+      "stock": 5,
+      "type": "dark"
+    },
+    {
+      "name": "Sky Swoop",
+      "power": 60,
+      "acc": 100,
+      "desc": "Fly in from above",
+      "stock": 10,
+      "type": "flying"
+    },
+    {
+      "name": "Crash",
+      "power": 80,
+      "acc": 100,
+      "desc": "Literary crash into them",
+      "stock": 20,
+      "type": "normal"
+    },
+    {
+      "name": "Dumpster Fire",
+      "power": 80,
+      "acc": 50,
+      "desc": "This move is a dumpster fire",
+      "stock": 10,
+      "type": "fire"
+    }
+  ],
+  "items": [
+    {
+      "id": "Hype Potion",
+      "tool_tip": "heal 200"
+    },
+    {
+      "id": "Stone Plate",
+      "tool_tip": "a heavy stone"
+    }
+  ],
+  "map": {
+    "lr": {
+      "x": 60,
+      "y": 20
+    },
+    "encounter rate": 0.05,
+    "grass": [
+      {
+        "ul": {
+          "x": 2,
+          "y": 3
+        },
+        "lr": {
+          "x": 14,
+          "y": 4
+        }
+      },
+      {
+        "ul": {
+          "x": 7,
+          "y": 3
+        },
+        "lr": {
+          "x": 9,
+          "y": 10
+        }
+      },
+      {
+        "ul": {
+          "x": 16,
+          "y": 3
+        },
+        "lr": {
+          "x": 18,
+          "y": 10
+        }
+      },
+      {
+        "ul": {
+          "x": 16,
+          "y": 6
+        },
+        "lr": {
+          "x": 28,
+          "y": 7
+        }
+      },
+      {
+        "ul": {
+          "x": 26,
+          "y": 3
+        },
+        "lr": {
+          "x": 28,
+          "y": 10
+        }
+      },
+      {
+        "ul": {
+          "x": 30,
+          "y": 3
+        },
+        "lr": {
+          "x": 42,
+          "y": 4
+        }
+      },
+      {
+        "ul": {
+          "x": 30,
+          "y": 9
+        },
+        "lr": {
+          "x": 42,
+          "y": 10
+        }
+      },
+      {
+        "ul": {
+          "x": 35,
+          "y": 3
+        },
+        "lr": {
+          "x": 37,
+          "y": 10
+        }
+      },
+      {
+        "ul": {
+          "x": 44,
+          "y": 3
+        },
+        "lr": {
+          "x": 56,
+          "y": 4
+        }
+      },
+      {
+        "ul": {
+          "x": 44,
+          "y": 3
+        },
+        "lr": {
+          "x": 46,
+          "y": 6
+        }
+      },
+      {
+        "ul": {
+          "x": 44,
+          "y": 6
+        },
+        "lr": {
+          "x": 56,
+          "y": 7
+        }
+      },
+      {
+        "ul": {
+          "x": 54,
+          "y": 7
+        },
+        "lr": {
+          "x": 56,
+          "y": 10
+        }
+      },
+      {
+        "ul": {
+          "x": 44,
+          "y": 9
+        },
+        "lr": {
+          "x": 56,
+          "y": 10
+        }
+      },
+      {
+        "ul": {
+          "x": 16,
+          "y": 18
+        },
+        "lr": {
+          "x": 28,
+          "y": 19
+        }
+      },
+      {
+        "ul": {
+          "x": 16,
+          "y": 12
+        },
+        "lr": {
+          "x": 28,
+          "y": 13
+        }
+      },
+      {
+        "ul": {
+          "x": 21,
+          "y": 12
+        },
+        "lr": {
+          "x": 23,
+          "y": 19
+        }
+      },
+      {
+        "ul": {
+          "x": 30,
+          "y": 12
+        },
+        "lr": {
+          "x": 42,
+          "y": 13
+        }
+      },
+      {
+        "ul": {
+          "x": 30,
+          "y": 15
+        },
+        "lr": {
+          "x": 42,
+          "y": 16
+        }
+      },
+      {
+        "ul": {
+          "x": 30,
+          "y": 18
+        },
+        "lr": {
+          "x": 42,
+          "y": 19
+        }
+      },
+      {
+        "ul": {
+          "x": 30,
+          "y": 12
+        },
+        "lr": {
+          "x": 32,
+          "y": 15
+        }
+      },
+      {
+        "ul": {
+          "x": 40,
+          "y": 17
+        },
+        "lr": {
+          "x": 42,
+          "y": 19
+        }
+      }
+    ],
+    "trees": [
+      {
+        "ul": {
+          "x": 18,
+          "y": 6
+        },
+        "lr": {
+          "x": 20,
+          "y": 17
+        }
+      },
+      {
+        "ul": {
+          "x": 7,
+          "y": 6
+        },
+        "lr": {
+          "x": 18,
+          "y": 7
+        }
+      },
+      {
+        "ul": {
+          "x": 7,
+          "y": 11
+        },
+        "lr": {
+          "x": 18,
+          "y": 12
+        }
+      },
+      {
+        "ul": {
+          "x": 7,
+          "y": 16
+        },
+        "lr": {
+          "x": 18,
+          "y": 17
+        }
+      },
+      {
+        "ul": {
+          "x": 24,
+          "y": 6
+        },
+        "lr": {
+          "x": 27,
+          "y": 17
+        }
+      },
+      {
+        "ul": {
+          "x": 31,
+          "y": 6
+        },
+        "lr": {
+          "x": 34,
+          "y": 17
+        }
+      },
+      {
+        "ul": {
+          "x": 38,
+          "y": 6
+        },
+        "lr": {
+          "x": 40,
+          "y": 17
+        }
+      },
+      {
+        "ul": {
+          "x": 38,
+          "y": 6
+        },
+        "lr": {
+          "x": 40,
+          "y": 17
+        }
+      },
+      {
+        "ul": {
+          "x": 38,
+          "y": 6
+        },
+        "lr": {
+          "x": 52,
+          "y": 7
+        }
+      },
+      {
+        "ul": {
+          "x": 38,
+          "y": 16
+        },
+        "lr": {
+          "x": 52,
+          "y": 17
+        }
+      },
+      {
+        "ul": {
+          "x": 50,
+          "y": 6
+        },
+        "lr": {
+          "x": 52,
+          "y": 17
+        }
+      }
+    ],
+    "pocamels": [
+      {
+        "name": "Oof",
+        "type": [
+          "normal"
+        ],
+        "level": 20,
+        "hp": 60,
+        "max_hp": 60,
+        "attack": 20,
+        "defense": 40,
+        "speed": 100,
+        "accuracy": 90,
+        "evasion": 130,
+        "moves": [
+          {
+            "name": "Toggle",
+            "stock": 40
+          }
+        ],
+        "item": {
+          "id": "None",
+          "count": 0,
+          "elixir": 0
+        }
+      },
+      {
+        "name": "Piggy",
+        "type": [
+          "flying"
+        ],
+        "level": 15,
+        "hp": 60,
+        "max_hp": 60,
+        "attack": 20,
+        "defense": 40,
+        "speed": 100,
+        "accuracy": 90,
+        "evasion": 130,
+        "moves": [
+          {
+            "name": "Sky Swoop",
+            "stock": 10
+          }
+        ],
+        "item": {
+          "id": "None",
+          "count": 0,
+          "elixir": 0
+        }
+      }
+    ]
+  }
+}

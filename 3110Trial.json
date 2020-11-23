@@ -1,0 +1,195 @@
+{
+  "llbound": {
+    "x": 0,
+    "y": 0
+  },
+  "urbound": {
+    "x": 20,
+    "y": 20
+  },
+  "player": {
+    "name": "Timmy",
+    "pocamels": [
+      {
+        "name": "Medapod",
+        "type": [
+          "bug"
+        ],
+        "level": 100,
+        "hp": 100,
+        "max_hp": 100,
+        "attack": 100,
+        "defense": 100,
+        "speed": 100,
+        "accuracy": 100,
+        "evasion": 100,
+        "moves": [
+          {
+            "name": "Toggle",
+            "stock": 10
+          }
+        ],
+        "item": {
+          "id": "None",
+          "count": 0,
+          "elixir": 0
+        }
+      },
+      {
+        "name": "Majikarp",
+        "type": [
+          "water"
+        ],
+        "level": 100,
+        "hp": 1,
+        "max_hp": 100,
+        "attack": 100,
+        "defense": 100,
+        "speed": 100,
+        "accuracy": 100,
+        "evasion": 100,
+        "moves": [
+          {
+            "name": "Splosh",
+            "stock": 10
+          }
+        ],
+        "item": {
+          "id": "None",
+          "count": 0,
+          "elixir": 0
+        }
+      }
+    ],
+    "items": [
+      {
+        "id": "Hype Potion",
+        "count": 1,
+        "elixir": 200
+      }
+    ],
+    "location": {
+      "x": 0,
+      "y": 0
+    },
+    "direction": "North"
+  },
+  "opponents": [
+    {
+      "name": "Bob",
+      "pocamels": [
+        {
+          "name": "Majikarp",
+          "type": [
+            "water"
+          ],
+          "level": 100,
+          "hp": 100,
+          "max_hp": 100,
+          "attack": 100,
+          "defense": 100,
+          "speed": 100,
+          "accuracy": 100,
+          "evasion": 100,
+          "moves": [
+            {
+              "name": "Splosh",
+              "stock": 40
+            }
+          ],
+          "item": {
+            "id": "None",
+            "count": 0,
+            "elixir": 0
+          }
+        },
+        {
+          "name": "Majikarp2",
+          "type": [
+            "water"
+          ],
+          "level": 100,
+          "hp": 100,
+          "max_hp": 100,
+          "attack": 100,
+          "defense": 100,
+          "speed": 100,
+          "accuracy": 100,
+          "evasion": 100,
+          "moves": [
+            {
+              "name": "Splosh",
+              "stock": 40
+            }
+          ],
+          "item": {
+            "id": "None",
+            "count": 0,
+            "elixir": 0
+          }
+        },
+        {
+          "name": "Medapod",
+          "type": [
+            "bug"
+          ],
+          "level": 100,
+          "hp": 100,
+          "max_hp": 100,
+          "attack": 100,
+          "defense": 100,
+          "speed": 100,
+          "accuracy": 100,
+          "evasion": 100,
+          "moves": [
+            {
+              "name": "Toggle",
+              "stock": 10
+            }
+          ],
+          "item": {
+            "id": "None",
+            "count": 0,
+            "elixir": 0
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "Hype Potion",
+          "count": 1,
+          "elixir": 200
+        }
+      ],
+      "location": {
+        "x": 10,
+        "y": 10
+      },
+      "direction": "North"
+    }
+  ],
+  "moves": [
+    {
+      "name": "Splosh",
+      "power": 0,
+      "acc": 100,
+      "desc": "Waddle Waddle",
+      "stock": 40,
+      "type": "water"
+    },
+    {
+      "name": "Toggle",
+      "power": 50,
+      "acc": 100,
+      "desc": "boom",
+      "stock": 40,
+      "type": "normal"
+    }
+  ],
+  "items": [
+    {
+      "id": "Hype Potion",
+      "tool_tip": "heal 200"
+    }
+  ]
+}
